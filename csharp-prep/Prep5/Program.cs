@@ -15,7 +15,9 @@ class Program
 
         DisplayResult(userName, squaredNumber);
         
-        // Here star to displey the funcions, for now with the static
+        
+    }
+    // Here star to displey the funcions, for now with the static
         // And it can work insede of the static principal or outside
         static void DisplayWelcomeMessage()
         {
@@ -48,6 +50,4 @@ class Program
         {
             Console.WriteLine($"{name}, the square of your number is {square}");
         }
-    }
-    
 }
