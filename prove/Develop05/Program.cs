@@ -203,9 +203,6 @@ class Program
                 case 6:
                     // Quit
                     break;
-                default:
-                    Console.WriteLine("Invalid response");
-                    break;
             }
         }
     }
