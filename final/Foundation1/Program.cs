@@ -12,8 +12,8 @@ public class Program
         List<Video> _videos = new List<Video>();
 
         // Video 1 
-        string title = "Magnet Fishing at Bass Lake";
-        string author = "Sam Thomas";
+        string title = " Amazing Trabel at Salt Lake";
+        string author = "Samuel Rodas";
         int length = 300;
         Video video1 = new Video(title,author,length);
         _videos.Add(video1);
@@ -21,16 +21,16 @@ public class Program
        
         
         // Video 1 comment
-        string name = "Sally Fry";
-        string comment = "Where did you buy such a large maganet?";
+        string name = "BrendStyle_";
+        string comment = "Wow, is a great travel to do";
         Comment vid1com1 = new Comment(name, comment);
 
-        string name2 = "Micheal Ford";
-        string comment2 = "I only ever get fishing hooks when I magnet fish.";
+        string name2 = "*Jamesbonds*";
+        string comment2 = "How do make that ?";
         Comment vid1com2 = new Comment(name2,comment2);
 
-        string name3 = "Bill Worth";
-        string comment3 = "Excited to see the next place you go.";
+        string name3 = ">>ValenSonic<<";
+        string comment3 = "Do you know how much it cost?";
         Comment vid1com3 = new Comment(name3,comment3);
 
         video1._comments.Add(vid1com1);
@@ -42,23 +42,23 @@ public class Program
         Console.WriteLine();
 
         // Video 2
-        string title2 = "Touching my Toes";
-        string author2 = "Ronald Breeks";
+        string title2 = "Cooking my cake";
+        string author2 = "Stacy Stanley";
         int length2 = 252;
         Video video2 = new Video(title2,author2,length2);
         _videos.Add(video2);
 
         // Comments for Video 2
-        string name4 = "Jack Mann";
-        string comment4 = "Way to be, I have never been able to touch my toes.";
+        string name4 = "JackRyan99";
+        string comment4 = " I have never made that kind of cake.";
         Comment vid2com1 = new Comment(name4,comment4);
 
-        string name5 = "Sarah Straight";
-        string comment5 = "I love how you showed the whole process in one video.";
+        string name5 = "SaraSpinner";
+        string comment5 = "It's look amazing your work.";
         Comment vid2com2 = new Comment(name5,comment5);
 
-        string name6 = "Kate Mobile";
-        string comment6 = "Now you should try learning to do the splits.";
+        string name6 = "Will_22";
+        string comment6 = "I will try to made that, thanks for the video!";
         Comment vid2com3 = new Comment(name6,comment6);
 
         video2._comments.Add(vid2com1);
@@ -70,23 +70,23 @@ public class Program
         Console.WriteLine();
 
         // Video 3
-        string title3 = "Fixing my Kitchen Sink";
+        string title3 = "How to choose my phone";
         string author3 = "Tom Rush";
         int length3 = 420;
         Video video3 = new Video(title3,author3,length3);
         _videos.Add(video3);
 
         //Comments for Video 3
-        string name7 = "Terry Pickler";
-        string comment7 = "Man this video helped me a lot, my faucet just bit the dust.";
+        string name7 = "Terry433";
+        string comment7 = "This a great way to see what phone is better to me.";
         Comment vid3com1 = new Comment(name7,comment7);
 
-        string name8 = "Perry Woods";
-        string comment8 = "There is plumbers putty that can help with your problem.";
+        string name8 = "GreatWoodss";
+        string comment8 = "Try to show more phones next time please.";
         Comment vid3com2 = new Comment(name8,comment8);
 
-        string name9 = "Jenny Lance";
-        string comment9 = "What a good husband!";
+        string name9 = "JLDance";
+        string comment9 = "Where is that store?";
         Comment vid3com3 = new Comment(name9,comment9);
 
         video3._comments.Add(vid3com1);

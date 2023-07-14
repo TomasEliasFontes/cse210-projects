@@ -16,8 +16,7 @@ public class Comment
         _comment = comment;
     }
 
-    // THis is how is gonna we displey the info input from the user 
-    // in case is asked
+    // THis is how is gonna we displey the comment input from the user 
     public void Display()
     {
         Console.WriteLine($"User: {_name} - Comment: {_comment} ");

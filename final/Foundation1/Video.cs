@@ -7,6 +7,7 @@ using System.IO;
 // to may be accessible to the other programs
 public class Video
 {
+    //We made the variables that are change for the Program
     public string _title,_author;
     public double _length;
     public List<Comment> _comments = new List<Comment>();
@@ -19,6 +20,7 @@ public class Video
     }
 
 
+    //It display the info input form the system and call the funcion to see the comments
     public void DisplayAll()
     {
         Console.WriteLine("_______________________________________");
