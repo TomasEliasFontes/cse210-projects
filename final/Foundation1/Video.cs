@@ -23,7 +23,7 @@ public class Video
     //It display the info input form the system and call the funcion to see the comments
     public void DisplayAll()
     {
-        Console.WriteLine("_______________________________________");
+        Console.WriteLine(new string('-', 100));
         Console.WriteLine($"Video Title: {_title}, Author: {_author} length: {_length} sec");
         Console.WriteLine($"Number of Comments: {_comments.Count}");
         Console.WriteLine("Comments: ");
@@ -31,7 +31,7 @@ public class Video
         {
             comment.Display();
         }
-        Console.WriteLine("_______________________________________");
+        Console.WriteLine(new string('-', 100));
     }
 
 
