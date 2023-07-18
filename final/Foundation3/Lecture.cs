@@ -17,7 +17,7 @@ public class Lecture : Event
     public void FullDetails()
     {
         base.FullDetails();
-        Console.WriteLine($"Speaker : {_speaker} Availability people : {_limitCapacity}");
+        Console.WriteLine($"Speaker : {_speaker}, Availability people : {_limitCapacity}");
     } 
 
 }
