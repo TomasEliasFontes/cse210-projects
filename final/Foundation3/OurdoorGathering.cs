@@ -1,5 +1,4 @@
 
-
 public class OutdoorGathering : Event
 {
     // This are the name that are called in private 
