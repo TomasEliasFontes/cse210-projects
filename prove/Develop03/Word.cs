@@ -1,50 +1,26 @@
-namespace Develop03
+public class Word
 {
-    class Word
+    private string _text;
+    public int Index;
+    public bool _hidden;
+
+    public Word(string text, int index)
     {
-        private bool _hidden;
-        private string _word;
-
-        public Word(string word)
-        {
-            _hidden = false;
-            _word = word;
-        }
-
-        public string GetWord()
-        {
-            // Get the word, if it is hidden will return underscores
-            if (_hidden)
-            {
-
-                // Loop breaks the string into individuwal words 
-                // based on spaces.
-                string hiddenWord = "";
-                foreach (char letter in _word)
-                {
-                    hiddenWord += "_";
-                }
-                // Hidden return
-                return hiddenWord;
-            }
-            // Visable word return
-            return _word;
-        }
-
-        public bool IsHidden()
-        {
-            return _hidden;
-        }
-
-        public void Hide()
-        {
-            _hidden = true;
-        }
-
-        public void Show()
-        {
-            _hidden = false;
-        }
-
+        _text = text;
+        Index = index;
+        _hidden = false;
     }
+
+    public void Hide()
+    {
+        _hidden = true;
+    }
+    
+    public override string ToString()
+    {
+        
+            return _text;
+        
+    }
+
 }
